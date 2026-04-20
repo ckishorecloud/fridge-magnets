@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>The Magnet Gallery - Premium Fridge Magnets</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700;900&amp;family=Manrope:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "inverse-surface": "#33302d",
+                        "inverse-primary": "#accfb3",
+                        "primary-fixed-dim": "#accfb3",
+                        "surface-container": "#f3ede9",
+                        "secondary": "#6b5c46",
+                        "tertiary": "#36151b",
+                        "tertiary-fixed": "#ffd9dd",
+                        "on-primary-fixed": "#02210f",
+                        "on-error-container": "#93000a",
+                        "on-secondary-fixed-variant": "#534530",
+                        "secondary-fixed": "#f5dfc3",
+                        "tertiary-fixed-dim": "#f0b8bf",
+                        "surface-container-lowest": "#ffffff",
+                        "surface": "#fff8f4",
+                        "primary-container": "#1d3b27",
+                        "on-secondary-container": "#70604a",
+                        "outline-variant": "#c2c8c0",
+                        "on-background": "#1d1b19",
+                        "on-error": "#ffffff",
+                        "on-tertiary": "#ffffff",
+                        "on-primary-fixed-variant": "#2f4d38",
+                        "on-tertiary-fixed-variant": "#633b41",
+                        "outline": "#727972",
+                        "secondary-container": "#f2ddc0",
+                        "error-container": "#ffdad6",
+                        "surface-variant": "#e8e1dd",
+                        "on-primary-container": "#84a68b",
+                        "surface-container-high": "#eee7e3",
+                        "error": "#ba1a1a",
+                        "background": "#fff8f4",
+                        "primary-fixed": "#c8ebce",
+                        "on-tertiary-fixed": "#311117",
+                        "on-secondary": "#ffffff",
+                        "surface-dim": "#dfd9d5",
+                        "tertiary-container": "#4f2a30",
+                        "secondary-fixed-dim": "#d8c4a8",
+                        "surface-tint": "#46654f",
+                        "primary": "#062513",
+                        "on-surface": "#1d1b19",
+                        "on-tertiary-container": "#c49097",
+                        "surface-bright": "#fff8f4",
+                        "on-surface-variant": "#424842",
+                        "on-secondary-fixed": "#241a08",
+                        "on-primary": "#ffffff",
+                        "surface-container-low": "#f9f2ee",
+                        "inverse-on-surface": "#f6efeb",
+                        "surface-container-highest": "#e8e1dd"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {},
+                    "fontFamily": {
+                        "headline": [
+                            "Epilogue", "sans-serif"
+                        ],
+                        "body": [
+                            "Manrope", "sans-serif"
+                        ],
+                        "label": [
+                            "Manrope", "sans-serif"
+                        ]
+                    }
+                },
+            },
+        }
+    </script>
+<style type="text/tailwindcss">
+        @layer utilities {
+            .glass-nav {
+                @apply bg-[#fff8f4]/80 dark:bg-[#1d1b19]/80 backdrop-blur-xl shadow-sm dark:shadow-none;
+            }
+            .magnet-shadow {
+                box-shadow: 0 12px 32px rgba(29, 27, 25, 0.06);
+            }
+            .btn-primary {
+                @apply bg-gradient-to-r from-primary to-primary-container text-on-primary rounded-full px-8 py-3 font-label font-bold tracking-wide hover:opacity-90 transition-opacity;
+            }
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body antialiased selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopNavBar Component -->
+<nav class="fixed top-0 left-0 w-full z-50 glass-nav flex justify-between items-center px-8 py-4 max-w-full mx-auto font-label">
+<a class="text-2xl font-headline font-black text-[#1d3b27] dark:text-[#accfb3] tracking-tight" href="index.html">
+            The Magnet Gallery
+        </a>
+<div class="hidden md:flex gap-8 items-center">
+<a class="font-epilogue font-bold tracking-tight uppercase text-sm text-[#1d3b27] dark:text-[#accfb3] border-b-2 border-[#1d3b27] pb-1 hover:text-[#1d3b27] transition-colors duration-300 opacity-100" href="index.html">Shop</a>
+<a class="font-epilogue font-bold tracking-tight uppercase text-sm text-[#1d1b19]/60 dark:text-[#fff8f4]/60 hover:text-[#1d3b27] transition-colors duration-300" href="designer.html">Custom Designs</a>
+<a class="font-epilogue font-bold tracking-tight uppercase text-sm text-[#1d1b19]/60 dark:text-[#fff8f4]/60 hover:text-[#1d3b27] transition-colors duration-300" href="about.html">About</a>
+</div>
+<div class="flex gap-4 items-center text-[#1d3b27] dark:text-[#accfb3]">
+<button class="hover:text-primary transition-colors">
+<span class="material-symbols-outlined" data-icon="search">search</span>
+</button>
+<button class="hover:text-primary transition-colors">
+<span class="material-symbols-outlined" data-icon="shopping_cart">shopping_cart</span>
+</button>
+<button class="md:hidden hover:text-primary transition-colors">
+<span class="material-symbols-outlined" data-icon="menu">menu</span>
+</button>
+</div>
+</nav>
+<main class="pt-24 md:pt-32 pb-24">
+<!-- Hero Section -->
+<section class="max-w-7xl mx-auto px-6 md:px-12 flex flex-col md:flex-row items-center gap-12 mb-32">
+<div class="flex-1 space-y-8 z-10">
+<h1 class="font-headline font-black text-5xl md:text-7xl leading-tight text-primary">
+                    Your memories, beautifully magnetic.
+                </h1>
+<p class="font-body text-lg text-on-surface-variant max-w-md">
+                    Transform your digital photos into premium, die-cut physical art. Curated for your kitchen, designed to last a lifetime.
+                </p>
+<div>
+<a class="inline-block btn-primary mt-4" href="#">Shop Now</a>
+</div>
+</div>
+<div class="flex-1 relative w-full aspect-square md:aspect-[4/5] max-w-lg mx-auto">
+<div class="absolute inset-0 bg-surface-container-low rounded-xl -rotate-2 transform-gpu"></div>
+<img alt="High-end fridge with colorful custom photo magnets" class="absolute inset-0 w-full h-full object-cover rounded-lg rotate-1 shadow-2xl z-10" data-alt="close up of a modern matte grey refrigerator door decorated with an asymmetrical arrangement of thick, premium die-cut photo magnets featuring family memories and travel landscapes, soft natural kitchen lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAmTqTbLbhYUCoVOjG8YVGb09Wh_MAjiNljEFnQ62D5iLjWRvcQgke0fnKzix-B84GGbtUv-qlCX3ZUihyDGeLx0RXXJpamOjdYDzCRdJesPCRMfcYROL6Jnv1wv1oZA3aPE1pgwf6Hw98AUxOkMI6dTcVf252oahoGh0G__3iKzePXXGi5kDcHQQXbt0v0R9nIU7wykSp24IaMIQjJotXCZpduCCEXTecqEmDG-Hf0VEdQF_cAFf3Ifr1AfluAd5J2zHJklDPZSn6L"/>
+</div>
+</section>
+<!-- Category Bento Grid -->
+<section class="bg-surface-container-low py-24 px-6 md:px-12 mb-32">
+<div class="max-w-7xl mx-auto">
+<h2 class="font-headline font-bold text-3xl mb-12 text-center text-primary tracking-tight">Curated Collections</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:grid-rows-2">
+<!-- Card 1: Large -->
+<a class="md:col-span-2 md:row-span-2 group relative overflow-hidden rounded-xl bg-surface-container-lowest magnet-shadow" href="#">
+<div class="absolute inset-0 w-full h-full bg-primary/10 group-hover:bg-transparent transition-colors z-10"></div>
+<img alt="Travel Memories Magnets" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="collection of polaroid-style travel photo magnets arranged on a pristine white surface, showing mountains, beaches, and cityscapes in high quality print" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCZdhdYlGHZtJ7j4cRyS_1CliacEMXzRIARVMM1U4nF7wW1oYSqY17FhRLT28Xk9HYlOmdWOHrf98_UfRSg-J1bwINZ9vgV8fE9ME6bIYoqwLoh6DyjhNR2OooCbdhYtUeoZ0V02qJazUXHkgE_F_gzEUKdXW5od6Vl-kMUF3I2py83XReWgj4bpFWvfYJ3dtPPBBOSYReLld1lhFbPcUFMCJFWXeQd-mMkxyTFqa0JvStKAvd6KaS0_xr7-xfP3SazlpOLO1czDLVn"/>
+<div class="absolute bottom-0 left-0 p-8 z-20 w-full bg-gradient-to-t from-inverse-surface/80 to-transparent">
+<h3 class="font-headline text-2xl font-bold text-white mb-2">Travel Memories</h3>
+<span class="font-label text-sm uppercase tracking-widest text-white/90">Explore Collection →</span>
+</div>
+</a>
+<!-- Card 2: Small -->
+<a class="group relative overflow-hidden rounded-xl bg-surface-container-lowest magnet-shadow" href="#">
+<img alt="Fruit shaped magnets including strawberry, banana, grapes, orange, watermelon, pineapple, apple, pear, and cherries" class="w-full h-48 md:h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://picsum.photos/seed/foodie-magnets/800/800"/>
+<div class="absolute bottom-0 left-0 p-6 z-20 w-full bg-gradient-to-t from-inverse-surface/80 to-transparent">
+<h3 class="font-headline text-xl font-bold text-white mb-1">Foodie Collection</h3>
+<span class="font-label text-xs uppercase tracking-widest text-white/90">Shop Now →</span>
+</div>
+</a>
+<!-- Card 3: Small -->
+<a class="group relative overflow-hidden rounded-xl bg-surface-container-highest magnet-shadow flex items-center justify-center p-8 text-center transition-colors hover:bg-surface-variant" href="#">
+<div>
+<span class="material-symbols-outlined text-4xl text-primary mb-4 block" data-icon="redeem">redeem</span>
+<h3 class="font-headline text-xl font-bold text-primary mb-2">Corporate Gifts</h3>
+<p class="font-body text-sm text-on-surface-variant mb-4">Bulk orders for mindful branding.</p>
+<span class="font-label text-xs uppercase tracking-widest text-primary font-bold">Inquire →</span>
+</div>
+</a>
+</div>
+</div>
+</section>
+<!-- Signature Magnets Row -->
+<section class="max-w-7xl mx-auto px-6 md:px-12 mb-32 overflow-hidden py-12">
+<div class="flex justify-between items-end mb-12">
+<h2 class="font-headline font-bold text-3xl text-primary tracking-tight">Signature Pieces</h2>
+<a class="font-label text-sm uppercase tracking-widest text-primary font-bold hover:underline" href="#">View All</a>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+<!-- Product 1 -->
+<div class="group cursor-pointer">
+<div class="relative bg-surface-container-lowest rounded-md aspect-square mb-4 magnet-shadow -rotate-2 group-hover:rotate-0 transition-transform duration-300">
+<img alt="The Classic Square" class="w-full h-full object-cover rounded-md p-2" data-alt="single thick white bordered square photo magnet showing a sunset, lying flat on a cream colored studio background, soft lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD5Sv38YBZfzMwYuaBjd2lBUT_gZ6i8hH-jRukHzAfdPdfpR3ocRBKDMun6Z3bR6B3TqMenQsvN2CI_q0J-2pyB4XJ0LPOwZhDWngNcsn8GcceSt9p_OoGGg4R-MJqccXW9LDadZpQjDbjR6-6Jjfa9pbyQmSfHOvQyiMD9f9VBxDXh6OQqSbJLJ9HC1DupulM15FIWwngKhd5XkofmipbPWRpvdud3gfamfMyN-5XYxYHuHDDrti9tO1fhfqF7ms-dPiy9LzVW3Y2t"/>
+</div>
+<div class="text-center bg-surface-container-lowest p-3 rounded-md mx-2 magnet-shadow z-10 relative">
+<h4 class="font-body font-bold text-primary">The Classic Square</h4>
+<p class="font-label text-sm text-on-surface-variant">$12.00</p>
+</div>
+</div>
+<!-- Product 2 -->
+<div class="group cursor-pointer">
+<div class="relative bg-surface-container-lowest rounded-md aspect-square mb-4 magnet-shadow rotate-3 group-hover:rotate-0 transition-transform duration-300">
+<img alt="Burj Al Arab Magnet" class="w-full h-full object-cover rounded-md p-2" data-alt="A premium die-cut fridge magnet of the Burj Al Arab in Dubai, styled as a modern illustration with sunset colors." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDVRBa7-47HyJxY1_USZgiZ9voJsch5uxfALDCqH8od17qUCHbScW0nqthgXFhUD8McSQm5AsJj13aKsd4ZTYi_h2HQ3v6tTwaQf3byWBwISYa_KbzLRrdhcI5JXacZtDZ1tU_H26XeZIOf-LDhkqRiVf7weO0rHU5s8EB9YgPfOAmUsupXov7rJcveepy5vdNG7lFusvMkQX0JFbUvKt6E63YUMWzhV_H4FmYozl8r7uORPIfAEZq3CMRpXMG8-NSX08QzBbeohoK3"/>
+</div>
+<div class="text-center bg-surface-container-lowest p-3 rounded-md mx-2 magnet-shadow z-10 relative">
+<h4 class="font-body font-bold text-primary">Burj Al Arab</h4>
+<p class="font-label text-sm text-on-surface-variant">$18.00</p>
+</div>
+</div>
+<!-- Product 3 -->
+<div class="group cursor-pointer">
+<div class="relative bg-surface-container-lowest rounded-md aspect-square mb-4 magnet-shadow -rotate-1 group-hover:rotate-0 transition-transform duration-300">
+<img alt="Vintage Polaroid Set" class="w-full h-full object-cover rounded-md p-2" data-alt="set of three small rectangular magnets designed to look like vintage polaroid pictures laid out on a textured wooden table" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDkbFwu9p8OPOvNZAP70BOkHZwPyWFwUXnPOu4zO2BST1SrRw4C0rLUPyfg7GVO4ZK2Rx9zpdEO6T6z1zHdAUdn-ikqoD4b6FrrtVhbo2XqHOT0lO_1tt_IGPk0llP04wlmMZoXNVCSQQ-FbBGAv9BIxJy4pYmlsqKJQujrMf-QFe5mAQGXmVjFBCeNwK9Gr8x42M4Aj99qrlvbkZSSpQe4J7aoT25KmXIFDTjtCOUj4f1AdwZc5M_Q4Er5VzVUrlRUfpzRaq768_WC"/>
+</div>
+<div class="text-center bg-surface-container-lowest p-3 rounded-md mx-2 magnet-shadow z-10 relative">
+<h4 class="font-body font-bold text-primary">Vintage Set (3)</h4>
+<p class="font-label text-sm text-on-surface-variant">$24.00</p>
+</div>
+</div>
+<!-- Product 4 -->
+<div class="group cursor-pointer">
+<div class="relative bg-surface-container-lowest rounded-md aspect-square mb-4 magnet-shadow rotate-2 group-hover:rotate-0 transition-transform duration-300">
+<img alt="Dubai Skyline Magnet" class="w-full h-full object-cover rounded-md p-2" data-alt="wide panoramic landscape photo magnet showing a mountain lake, placed slightly askew on a clean white background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDkt3VsKaUSgWA0GRrRx63u6cLGLTctgRhZONBN3PjjRlwJt1-IMUia-Lb0KiYU40PufJOF67Kpz67sBz2Ia6O5sDw3vA8M_00A2arWJHx43wLmzfqwauJhoPcVJvHTivDR1njbToCFNCF75jzWR8pabgqrGXdWHfp9iVYwpCima54K2UozWfP6ksYjNQSbL4126vtk6bASuGKZWhv0o8kmP03Cw__rW3cKMwap0J3GGt40MTBv1fA-DJNf5sU1LdtckBh3iZcbb9jH"/>
+</div>
+<div class="text-center bg-surface-container-lowest p-3 rounded-md mx-2 magnet-shadow z-10 relative">
+<h4 class="font-body font-bold text-primary">Dubai Skyline</h4>
+<p class="font-label text-sm text-on-surface-variant">$16.00</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Newsletter Section -->
+<section class="max-w-4xl mx-auto px-6 mb-24 text-center">
+<div class="bg-primary-fixed-dim/20 rounded-2xl p-12 md:p-20 relative overflow-hidden">
+<div class="relative z-10">
+<h2 class="font-headline font-bold text-3xl md:text-4xl text-primary mb-4">Join the Gallery</h2>
+<p class="font-body text-on-surface-variant mb-8 max-w-md mx-auto">Get early access to new die-cut shapes and curated seasonal collections.</p>
+<form class="flex flex-col sm:flex-row gap-4 max-w-md mx-auto justify-center">
+<input class="bg-surface-container-highest border-none rounded-full px-6 py-3 font-body text-on-surface focus:ring-2 focus:ring-primary/20 focus:bg-surface-container-lowest transition-colors flex-1 shadow-sm" placeholder="Your email address" type="email"/>
+<button class="btn-primary whitespace-nowrap" type="submit">Subscribe</button>
+</form>
+<div class="mt-8 flex items-center justify-center gap-4">
+<div class="flex -space-x-3">
+<img alt="Subscriber" class="w-10 h-10 rounded-full border-2 border-surface object-cover" data-alt="headshot of a smiling young woman with dark hair against a neutral background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD005rFHcHkW7bsV3qcaKnlCz7fOS8g7RPkgkdszo4C5XcJ-gDBUq-0jrbrFOw8GojZnASr_QET17e0jyDcVRb1SUC1WZT5Gw99gLTLsyhmJilH5i1bMwl07V1OxDbBkCXg5MVd21dxs-rzmLoYEmUc-s77ns9ctxMr_8l-vTZTEwjmLIvNMuJSAKjxxZdBFl8t6FWiVzG2rYPDqeauS56_s16kwp9hNkm5iRu5ijQHJ1mTQ1GOzuUJ8VrP4lJy0_Urd9RUc_Xkrd8e"/>
+<img alt="Subscriber" class="w-10 h-10 rounded-full border-2 border-surface object-cover" data-alt="headshot of a man with short hair and a slight smile on a light background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBu1uX425Jjn1I7aY_8E0eGoZ72dz44_kRLr0epW3OjD9frrCCIwYQ0qNpKQnsq55e_yueRg3sIjUxiBzeesmC1HepzsiaUe-AI4RuCDs4iqD3p7j9UhpS0uKrcb18d3Pi8mqXRhZvkHkSGp0B37ECI5flczpa83Xc-aAsMPfuQ3tEkk6XVly5HU---Uq_FoJ5FBRCw0KXYKMGbbLV8MOIxw4ePSspnPYxcMugLq17spTZjw6LManX2rhzOaEEFjDcrs134VYypDpS8"/>
+<img alt="Subscriber" class="w-10 h-10 rounded-full border-2 border-surface object-cover" data-alt="close up portrait of a woman laughing softly outdoors in natural light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBhlP3vYALFmoMWz0wWSzgODNWsu2B9DGLWkNVwB9grYFEAtVYckfsgXxfWlwo0ShbhWub4Eem07wa3M0E7lgI269ohqWpojrDkDyOWBB2NMtFYIsl_OnXuph-fNamYYuO7uQ3a9VQX2H4XdPHce1llTWQdAolVvwGYqyo3X0Au38xeTmWBBBt0LvQEXSphu0qhJUhihUS0L7pWB2zgjiqj50dzLWCjCxS20o-6dkbDmkg0YwkPhwoD6bh_LoVjFdnb-4d2gzRVkUD3"/>
+</div>
+<span class="font-label text-sm text-on-surface-variant">Join 10,000+ collectors</span>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer Component -->
+<footer class="w-full mt-24 bg-[#f9f2ee] dark:bg-[#1d1b19] flex flex-col md:flex-row justify-between items-center px-12 py-16 gap-8">
+<div class="text-lg font-epilogue font-bold text-[#1d3b27]">
+            The Magnet Gallery
+        </div>
+<div class="flex flex-wrap justify-center gap-6">
+<a class="font-manrope text-xs tracking-widest uppercase text-[#1d1b19]/50 dark:text-[#fff8f4]/50 hover:text-[#1d3b27] dark:hover:text-[#accfb3] transition-colors" href="#">Shipping &amp; Returns</a>
+<a class="font-manrope text-xs tracking-widest uppercase text-[#1d1b19]/50 dark:text-[#fff8f4]/50 hover:text-[#1d3b27] dark:hover:text-[#accfb3] transition-colors" href="#">Privacy Policy</a>
+<a class="font-manrope text-xs tracking-widest uppercase text-[#1d1b19]/50 dark:text-[#fff8f4]/50 hover:text-[#1d3b27] dark:hover:text-[#accfb3] transition-colors" href="#">Wholesale</a>
+<a class="font-manrope text-xs tracking-widest uppercase text-[#1d1b19]/50 dark:text-[#fff8f4]/50 hover:text-[#1d3b27] dark:hover:text-[#accfb3] transition-colors" href="#">Instagram</a>
+</div>
+<div class="font-manrope text-xs text-[#1d1b19]/50 text-center md:text-right">
+            © 2024 The Magnet Gallery. Crafted with Tactile Intent.
+        </div>
+</footer>
+</body></html>

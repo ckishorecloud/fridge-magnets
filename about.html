@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>About - The Magnet Gallery</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700;900&amp;family=Manrope:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "inverse-surface": "#33302d",
+                        "inverse-primary": "#accfb3",
+                        "primary-fixed-dim": "#accfb3",
+                        "surface-container": "#f3ede9",
+                        "secondary": "#6b5c46",
+                        "tertiary": "#36151b",
+                        "surface-container-lowest": "#ffffff",
+                        "surface": "#fff8f4",
+                        "primary-container": "#1d3b27",
+                        "outline-variant": "#c2c8c0",
+                        "on-background": "#1d1b19",
+                        "outline": "#727972",
+                        "surface-variant": "#e8e1dd",
+                        "surface-container-high": "#eee7e3",
+                        "background": "#fff8f4",
+                        "surface-dim": "#dfd9d5",
+                        "surface-tint": "#46654f",
+                        "primary": "#062513",
+                        "on-surface": "#1d1b19",
+                        "surface-bright": "#fff8f4",
+                        "on-surface-variant": "#424842",
+                        "on-primary": "#ffffff",
+                        "surface-container-low": "#f9f2ee",
+                        "inverse-on-surface": "#f6efeb",
+                        "surface-container-highest": "#e8e1dd"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "fontFamily": {
+                        "headline": ["Epilogue", "sans-serif"],
+                        "body": ["Manrope", "sans-serif"],
+                        "label": ["Manrope", "sans-serif"]
+                    }
+                },
+            },
+        }
+    </script>
+<style type="text/tailwindcss">
+        @layer utilities {
+            .glass-nav {
+                @apply bg-[#fff8f4]/80 dark:bg-[#1d1b19]/80 backdrop-blur-xl shadow-sm dark:shadow-none;
+            }
+            .magnet-shadow {
+                box-shadow: 0 12px 32px rgba(29, 27, 25, 0.06);
+            }
+            .btn-primary {
+                @apply bg-gradient-to-r from-primary to-primary-container text-on-primary rounded-full px-8 py-3 font-label font-bold tracking-wide hover:opacity-90 transition-opacity;
+            }
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body antialiased selection:bg-primary-container selection:text-on-primary">
+<!-- TopNavBar -->
+<nav class="fixed top-0 left-0 w-full z-50 glass-nav flex justify-between items-center px-8 py-4 max-w-full mx-auto font-label">
+<a class="text-2xl font-headline font-black text-[#1d3b27] dark:text-[#accfb3] tracking-tight" href="index.html">
+            The Magnet Gallery
+        </a>
+<div class="hidden md:flex gap-8 items-center">
+<a class="font-epilogue font-bold tracking-tight uppercase text-sm text-[#1d1b19]/60 dark:text-[#fff8f4]/60 hover:text-[#1d3b27] transition-colors duration-300" href="index.html">Shop</a>
+<a class="font-epilogue font-bold tracking-tight uppercase text-sm text-[#1d1b19]/60 dark:text-[#fff8f4]/60 hover:text-[#1d3b27] transition-colors duration-300" href="designer.html">Custom Designs</a>
+<a class="font-epilogue font-bold tracking-tight uppercase text-sm text-[#1d3b27] dark:text-[#accfb3] border-b-2 border-[#1d3b27] pb-1 hover:text-[#1d3b27] transition-colors duration-300 opacity-100" href="about.html">About</a>
+</div>
+<div class="flex gap-4 items-center text-[#1d3b27] dark:text-[#accfb3]">
+<button class="hover:text-primary transition-colors">
+<span class="material-symbols-outlined" data-icon="search">search</span>
+</button>
+<button class="hover:text-primary transition-colors">
+<span class="material-symbols-outlined" data-icon="shopping_cart">shopping_cart</span>
+</button>
+<button class="md:hidden hover:text-primary transition-colors">
+<span class="material-symbols-outlined" data-icon="menu">menu</span>
+</button>
+</div>
+</nav>
+<main class="pt-24 md:pt-32 pb-24">
+<!-- Hero -->
+<section class="max-w-5xl mx-auto px-6 md:px-12 mb-24 md:mb-32">
+<span class="font-label text-xs uppercase tracking-[0.25em] text-on-surface-variant">Our Story</span>
+<h1 class="font-headline font-black text-5xl md:text-7xl leading-[1.05] text-primary mt-6 max-w-4xl">
+                Curated by hand. <br/><span class="text-on-surface-variant">Crafted to last.</span>
+            </h1>
+<p class="font-body text-lg md:text-xl text-on-surface-variant max-w-2xl mt-8 leading-relaxed">
+                The Magnet Gallery began as a small atelier with a simple belief: the things we see every day deserve the same craft as the things we frame. We turn humble fridge magnets into curated pieces of art, one lifetime memory at a time.
+            </p>
+</section>
+<!-- Feature image with offset card -->
+<section class="max-w-6xl mx-auto px-6 md:px-12 mb-24 md:mb-32">
+<div class="relative">
+<div class="absolute inset-0 bg-surface-container-low rounded-xl -rotate-1 transform-gpu"></div>
+<img alt="Artisan arranging premium photo magnets on a soft cream studio surface" class="relative w-full aspect-[16/9] object-cover rounded-xl rotate-1 magnet-shadow" src="https://picsum.photos/seed/atelier-story/1600/900"/>
+</div>
+</section>
+<!-- Three principles -->
+<section class="bg-surface-container-low py-24 md:py-32 px-6 md:px-12 mb-24 md:mb-32">
+<div class="max-w-6xl mx-auto">
+<span class="font-label text-xs uppercase tracking-[0.25em] text-on-surface-variant">Craft Principles</span>
+<h2 class="font-headline font-bold text-3xl md:text-5xl text-primary tracking-tight mt-4 mb-16 max-w-2xl">
+                    A gallery, not a gift shop.
+                </h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="bg-surface-container-lowest rounded-xl p-8 magnet-shadow -rotate-1">
+<span class="material-symbols-outlined text-4xl text-primary-container mb-4 block">auto_awesome</span>
+<h3 class="font-headline text-xl font-bold text-primary mb-3">Museum-grade print</h3>
+<p class="font-body text-on-surface-variant leading-relaxed">Archival inks on thick, die-cut board. Colors that hold true through every season, every morning coffee.</p>
+</div>
+<div class="bg-surface-container-lowest rounded-xl p-8 magnet-shadow rotate-1">
+<span class="material-symbols-outlined text-4xl text-primary-container mb-4 block">eco</span>
+<h3 class="font-headline text-xl font-bold text-primary mb-3">Responsibly sourced</h3>
+<p class="font-body text-on-surface-variant leading-relaxed">FSC-certified stock, plant-based laminates, and a small, accountable supply chain that we visit ourselves.</p>
+</div>
+<div class="bg-surface-container-lowest rounded-xl p-8 magnet-shadow -rotate-1">
+<span class="material-symbols-outlined text-4xl text-primary-container mb-4 block">favorite</span>
+<h3 class="font-headline text-xl font-bold text-primary mb-3">Personal by default</h3>
+<p class="font-body text-on-surface-variant leading-relaxed">Every order is reviewed by a human. If a photo needs love before it prints, we'll write you first.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Numbers row -->
+<section class="max-w-6xl mx-auto px-6 md:px-12 mb-24 md:mb-32">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-12">
+<div>
+<div class="font-headline font-black text-4xl md:text-5xl text-primary">10k+</div>
+<div class="font-label text-xs uppercase tracking-widest text-on-surface-variant mt-2">Collectors</div>
+</div>
+<div>
+<div class="font-headline font-black text-4xl md:text-5xl text-primary">6</div>
+<div class="font-label text-xs uppercase tracking-widest text-on-surface-variant mt-2">Years in the atelier</div>
+</div>
+<div>
+<div class="font-headline font-black text-4xl md:text-5xl text-primary">100%</div>
+<div class="font-label text-xs uppercase tracking-widest text-on-surface-variant mt-2">Hand inspected</div>
+</div>
+<div>
+<div class="font-headline font-black text-4xl md:text-5xl text-primary">∞</div>
+<div class="font-label text-xs uppercase tracking-widest text-on-surface-variant mt-2">Reprints, on us</div>
+</div>
+</div>
+</section>
+<!-- CTA -->
+<section class="max-w-4xl mx-auto px-6 text-center">
+<div class="bg-primary-fixed-dim/20 rounded-2xl p-12 md:p-20 relative overflow-hidden">
+<h2 class="font-headline font-bold text-3xl md:text-4xl text-primary mb-4">Bring your memories to the gallery.</h2>
+<p class="font-body text-on-surface-variant mb-8 max-w-md mx-auto">Upload a photo and we'll handle the rest — from color grading to the hand-cut finish.</p>
+<a class="inline-block btn-primary" href="designer.html">Start designing</a>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full mt-24 bg-[#f9f2ee] dark:bg-[#1d1b19] flex flex-col md:flex-row justify-between items-center px-12 py-16 gap-8">
+<div class="text-lg font-epilogue font-bold text-[#1d3b27]">
+            The Magnet Gallery
+        </div>
+<div class="flex flex-wrap justify-center gap-6">
+<a class="font-manrope text-xs tracking-widest uppercase text-[#1d1b19]/50 dark:text-[#fff8f4]/50 hover:text-[#1d3b27] dark:hover:text-[#accfb3] transition-colors" href="#">Shipping &amp; Returns</a>
+<a class="font-manrope text-xs tracking-widest uppercase text-[#1d1b19]/50 dark:text-[#fff8f4]/50 hover:text-[#1d3b27] dark:hover:text-[#accfb3] transition-colors" href="#">Privacy Policy</a>
+<a class="font-manrope text-xs tracking-widest uppercase text-[#1d1b19]/50 dark:text-[#fff8f4]/50 hover:text-[#1d3b27] dark:hover:text-[#accfb3] transition-colors" href="#">Wholesale</a>
+<a class="font-manrope text-xs tracking-widest uppercase text-[#1d1b19]/50 dark:text-[#fff8f4]/50 hover:text-[#1d3b27] dark:hover:text-[#accfb3] transition-colors" href="#">Instagram</a>
+</div>
+<div class="font-manrope text-xs text-[#1d1b19]/50 text-center md:text-right">
+            © 2024 The Magnet Gallery. Crafted with Tactile Intent.
+        </div>
+</footer>
+</body></html>
